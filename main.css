@@ -1,0 +1,41 @@
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.one {
+    background: red;
+    color: purple;
+    
+}
+.two {
+    background: yellow;
+    color: orange;
+}
+
+.three {
+    background: green;
+}
+
+@media (max-width: 400px) {
+    
+    .flex-container: {
+        flex-direction: column;
+    }
+    
+    body {
+        background: pink;
+        
+    }
+}
